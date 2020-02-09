@@ -1,0 +1,23 @@
+{
+  "name": "news-summary-challenge",
+  "version": "1.0.0",
+  "description": "Makers Week 7 Weekend Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaunlsy/news-summary-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaunlsy/news-summary-challenge/issues"
+  },
+  "homepage": "https://github.com/shaunlsy/news-summary-challenge#readme",
+  "dependencies": {
+    "guardian-js": "^2.0.0",
+    "http-server": "^0.12.1"
+  }
+}

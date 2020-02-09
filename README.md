@@ -26,6 +26,7 @@ Initialize Node with Http-Server library from the top level of the project's dir
 ```
 $ cd projectfolder/
 $ npm install http-server --save
+$ npm install --save guardian-js
 ```
 
 Running the server from command line:
