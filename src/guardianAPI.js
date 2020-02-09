@@ -36,7 +36,7 @@
                     span.innerHTML = `<a href="#news-${index}"> ${eachNews.webTitle.substring(
             0,
             100
-          )} </a>`;
+          )}</a>`;
                     append(li, span);
                     append(ul, li);
                 });
@@ -52,10 +52,10 @@
     };
 
     ApiInterface.prototype.showNewsForCurrentPage = function() {
+        this.aylienApi(this.getNewsIdFromUrl(window.location));
         this.showNewsArticle(
             this.guardianNewsFieldBody[this.getNewsIdFromUrl(window.location)]
         );
-        this.aylienApi(this.getNewsIdFromUrl(window.location));
     };
 
     ApiInterface.prototype.getNewsIdFromUrl = function(location) {
